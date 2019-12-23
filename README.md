@@ -4,7 +4,7 @@ Shamir's Secret Sharing is an algorithm in cryptography created by Adi Shamir. I
 
 To reconstruct the original secret, a minimum number of parts is required. In the threshold scheme this number is less than the total number of parts. Otherwise all participants are needed to reconstruct the original secret.
 
-## High-level explanation
+## High-level Explanation
 
 Shamir's Secret Sharing is used to secure a secret in a distributed way, most often to secure other encryption keys. The secret is split into multiple parts, called **shares**. These shares are used to reconstruct the original secret.
 
