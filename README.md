@@ -6,9 +6,9 @@ To reconstruct the original secret, a minimum number of parts is required. In th
 
 ## High-level explanation
 
-Shamir's Secret Sharing is used to secure a secret in a distributed way, most often to secure other encryption keys. The secret is split into multiple parts, called shares. These shares are used to reconstruct the original secret.
+Shamir's Secret Sharing is used to secure a secret in a distributed way, most often to secure other encryption keys. The secret is split into multiple parts, called **shares**. These shares are used to reconstruct the original secret.
 
-To unlock the secret via Shamir's secret sharing, you need a minimum number of shares. This is called the threshold, and is used to denote the minimum number of shares needed to unlock the secret. Let us walk through an example:
+To unlock the secret via Shamir's secret sharing, you need a minimum number of shares. This is called the **threshold**, and is used to denote the minimum number of shares needed to unlock the secret. Let us walk through an example:
 
   * **Problem:** Company XYZ needs to secure their vault's passcode. They could use something standard, such as AES, but what                   if the holder of the key is unavailable or dies? What if the key is compromised via a malicious hacker or the                   holder of the key turns rogue, and uses their power over the vault to their benefit?
 
