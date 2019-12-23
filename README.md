@@ -19,3 +19,7 @@ This is where SSS comes in. It can be used to encrypt the vault's passcode and g
   ```
   $ python Shamir_Secret_Sharing.py
   ```
+  
+  ## References
+  
+   * https://en.wikipedia.org/wiki/Shamir%27s_Secret_Sharing
